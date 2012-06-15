@@ -3,7 +3,7 @@ Name:		nodejs-fstream-npm
 Version:	0.0.6
 Release:	1
 License:	MIT
-Group:		Libraries
+Group:		Development/Libraries
 URL:		https://github.com/isaacs/fstream-npm
 Source0:	http://registry.npmjs.org/fstream-npm/-/fstream-npm-%{version}.tgz
 BuildRequires:	rpmbuild(macros) >= 1.634
