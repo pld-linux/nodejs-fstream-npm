@@ -6,6 +6,7 @@ License:	MIT
 Group:		Development/Libraries
 URL:		https://github.com/isaacs/fstream-npm
 Source0:	http://registry.npmjs.org/fstream-npm/-/fstream-npm-%{version}.tgz
+# Source0-md5:	51ee77f6e92db2e3b2812db2ff20ca77
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
 Requires:	nodejs-fstream-ignore
