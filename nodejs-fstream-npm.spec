@@ -1,17 +1,18 @@
 Summary:	An fstream class for creating npm packages
 Name:		nodejs-fstream-npm
-Version:	0.1.3
+Version:	0.1.6
 Release:	1
 License:	MIT
 Group:		Development/Libraries
 URL:		https://github.com/isaacs/fstream-npm
 Source0:	http://registry.npmjs.org/fstream-npm/-/fstream-npm-%{version}.tgz
-# Source0-md5:	2267e408a544355f10c3f00d070a92d3
+# Source0-md5:	3d2b0ff95fbb4944f6c87701016c1b5c
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
-Requires:	nodejs-fstream-ignore >= 0.0.5
 Requires:	nodejs-fstream-ignore < 0.1.0
-Requires:	nodejs-inherits
+Requires:	nodejs-fstream-ignore >= 0.0.5
+Requires:	nodejs-inherits < 3
+Requires:	nodejs-inherits >= 2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
