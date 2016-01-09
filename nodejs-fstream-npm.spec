@@ -1,17 +1,17 @@
 %define		pkg	fstream-npm
 Summary:	An fstream class for creating npm packages
 Name:		nodejs-%{pkg}
-Version:	0.1.7
+Version:	1.0.0
 Release:	1
-License:	MIT
+License:	ISC
 Group:		Development/Libraries
-Source0:	http://registry.npmjs.org/PACKAGE_NAME/-/%{pkg}-%{version}.tgz
-# Source0-md5:	ee92c5c502f898fe19587e5d3d0ed18e
+Source0:	http://registry.npmjs.org/fstream-npm/-/%{pkg}-%{version}.tgz
+# Source0-md5:	7e568468c2e94418cdcf26463aa6bc2e
 URL:		https://github.com/isaacs/fstream-npm
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
-Requires:	nodejs-fstream-ignore < 0.1.0
-Requires:	nodejs-fstream-ignore >= 0.0.0
+Requires:	nodejs-fstream-ignore < 2
+Requires:	nodejs-fstream-ignore >= 1.0.0
 Requires:	nodejs-inherits < 3
 Requires:	nodejs-inherits >= 2
 BuildArch:	noarch
