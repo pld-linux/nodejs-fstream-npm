@@ -2,7 +2,7 @@
 Summary:	An fstream class for creating npm packages
 Name:		nodejs-%{pkg}
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	ISC
 Group:		Development/Libraries
 Source0:	http://registry.npmjs.org/fstream-npm/-/%{pkg}-%{version}.tgz
